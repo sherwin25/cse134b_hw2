@@ -4,22 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact | Culinary Chronicles</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
+    <header class="site-header">
       <h1>Contact Us</h1>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="recipes.html">Recipes</a></li>
-        <li><a href="about.html">About</a></li>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="recipes.html">Recipes</a></li>
+        <li class="nav-item"><a href="about.html">About</a></li>
       </ul>
     </nav>
 
-    <main>
-      <section>
+    <main class="content">
+      <section class="gif-section">
+        <img
+          src="cooking-kid.gif"
+          alt="A gif of a little girl stirring a pot"
+        />
+      </section>
+      <br />
+
+      <section class="contact-section">
         <h2>Email</h2>
         <p>
           For any inquiries, feedback, or collaboration opportunities, please
@@ -30,9 +39,9 @@
         </p>
       </section>
 
-      <section>
+      <section class="contact-section">
         <h2>Contact Form</h2>
-        <form action="/submit_contact" method="post">
+        <form action="/submit_contact" method="post" class="contact-form">
           <fieldset>
             <legend>Write to Us</legend>
             <label for="name">Name:</label>
@@ -44,29 +53,29 @@
         </form>
       </section>
 
-      <section>
+      <section class="newsletter-section">
         <h2>Join our Newsletter</h2>
-        <form action="/submit_newsletter" method="post">
+        <form action="/submit_newsletter" method="post" class="newsletter-form">
           <label for="newsletter-email">Enter your email:</label>
           <input type="email" id="newsletter-email" name="newsletter_email" />
           <button type="submit">Subscribe</button>
         </form>
       </section>
 
-      <section>
+      <section class="social-media-section">
         <h2>Follow Us</h2>
         <p>
           Stay connected and keep up with our latest recipes and updates on our
           social media platforms:
         </p>
-        <ul>
+        <ul class="social-media-list">
           <li><a href="#">Instagram</a></li>
           <li><a href="#">Pinterest</a></li>
         </ul>
       </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
       <p>&copy; 2023 Culinary Chronicles. All rights reserved.</p>
     </footer>
   </body>

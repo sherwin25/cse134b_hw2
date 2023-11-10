@@ -4,22 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us | Culinary Chronicles</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
+    <header class="site-header">
       <h1>About Us</h1>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="recipes.html">Recipes</a></li>
-        <li><a href="contact.html">Contact</a></li>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="recipes.html">Recipes</a></li>
+        <li class="nav-item"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
-    <main>
-      <section id="mission">
+    <main class="content">
+      <section class="gif-section">
+        <img
+          src="homer.gif"
+          alt="A gif of Homer Simpson trying to cook and it gets on fire"
+        />
+      </section>
+
+      <section id="mission" class="content-section">
         <h2>Our Mission</h2>
         <p>
           At Culinary Chronicles, our mission is to bring the rich heritage of
@@ -29,7 +37,7 @@
         </p>
       </section>
 
-      <section id="our-story">
+      <section id="our-story" class="content-section">
         <h2>Our Story</h2>
         <p>
           The journey of Culinary Chronicles began with a passion for cooking
@@ -40,13 +48,13 @@
         </p>
       </section>
 
-      <section>
+      <section class="content-section">
         <h2>Our Beginnings</h2>
         <p>We started back in 2020...</p>
       </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
       <p>&copy; 2023 Culinary Chronicles. All rights reserved.</p>
     </footer>
   </body>
